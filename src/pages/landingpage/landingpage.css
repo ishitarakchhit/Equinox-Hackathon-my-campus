@@ -4,13 +4,15 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+    
+    
 }
  .landingpage{
     position: relative;
     min-width: 100%;
-    background-image:url('../../../src/assets/bgcb.png');
+    background-image:url('../../../src/assets/bg_landing.png');
     height: 100vh; 
-    
+    background-size: 100% 100%;
 }
 
 /* .curlybackground{
@@ -28,7 +30,7 @@ transform: rotate(43.02deg);
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    width: 28%;
+    width: 34%;
     height: 50px;
     left: 1000px;
     top: 20px;
@@ -36,23 +38,52 @@ transform: rotate(43.02deg);
     border-radius: 25px 0px 0px 25px;
     align-items: right;
     margin-right: 0%;
+    color: #24014E;
+    text-decoration: none;
  }
+ .landing_nav-items li{
+    display: inline;
+    padding: 10%;
+    text-decoration: none;
+    color: #24014E;
+    width: 4px;
+ }
+ .landing_nav-items li a{
+    display: inline;
+
+    text-decoration: none;
+    color: #24014E;
+ }
+ .landing_nav-items li a:hover{
+    background-color: #24014E;
+    border-radius: 50px;
+    color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+ }
+ .landing_nav-items li a:active{
+    background-color: #24014E;
+    border-radius: 50px;
+    color:rgb(40, 39, 49);
+    padding: 4px 19px;
+ }
+ 
  h1{
     margin: 0;
     font-size: 2.6rem;
 }
 .landingtext{
     position:relative;
-    width: 545px;
-    height: 288px; 
-    left: 144px;
-    top: 160px; 
-    color: #24014E;
+    width: 54%;
+    height: 54%px; 
+    left: 15%;
+    margin-top: 9%;
+    color: #ffffffe9;
     text-align: left;
     
 }
 .landinglogin{
-    color:#24014E;
+    color:#ffffff;
     margin-top:10%;
     font-size:1.4rem;
     text-align: left;
@@ -63,12 +94,12 @@ transform: rotate(43.02deg);
 .landingButtons{
    display:flex;
    flex-direction: row;
-   gap: 40px; 
+   gap: 4%; 
    position:relative;
    width: 350px;
    height: 50px;
-   left: 145px;
-   top:140px;
+   left: 21%;
+   margin-top: 3%;
 }
 
 .landingAdmin{
@@ -88,22 +119,19 @@ transform: rotate(43.02deg);
     font-weight: bold;
     justify-content:space-between;
     font-size: 1.0rem;
-    color:white;
+    color:rgb(40, 39, 49);
     width:150px;
     border-radius:20px;
-    background-color: rgb(36,1,78);
+    background: linear-gradient(113.32deg, #C9B2F6 0.73%, #915FD1 58.72%, #6109D9 105.8%);
+    border-radius: 50px;;
+    border-color: white;
+    border-width: 2px;
 }
 .landingStudent a{
     text-decoration: none;
     color:white;
 }
-.landingRocket{
-    position: absolute;
-    width: 440px; 
-    height: 470px;
-    left: 800px;
-    top: 160px;
-} 
+
 .landinglogo{
     margin-left:-1028px;
     margin-top: 20px;

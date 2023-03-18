@@ -7,17 +7,17 @@ function NavBar() {
         <nav>
             <div class="landing_nav-items">
                 {/* <ul> */}
-                    <MDBRow>
-                        {/* <MDBCol>
+                    <ul>
+                        <li style={{color: 'black'}}>
                        <a href='/'>HOME</a>
-                        </MDBCol>
-                        <MDBCol>
+                        </li>
+                        <li>
                         <a href='#'>ABOUT</a>  
-                        </MDBCol>
-                        <MDBCol>
+                        </li>
+                        <li>
                         <a href='#'>TEAM</a>
-                        </MDBCol> */}
-                    </MDBRow>
+                        </li>
+                    </ul>
                    {/* <li>HOME </li> 
                    <li>ABOUT</li> 
                    <li>TEAM</li> 

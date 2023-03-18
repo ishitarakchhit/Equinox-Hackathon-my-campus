@@ -1,6 +1,6 @@
 import './landingpage.css';
 import Header from "./Header";
-//import NavBar from "./LandingNavBar";
+import NavBar from "./LandingNavBar";
 import Content from "./Content";
 
 function App(){
@@ -8,7 +8,7 @@ function App(){
     <div className= "landingpage">
       <div className='curlybackground'></div>
     <Header/>
-    {/* <NavBar/> */}
+    <NavBar/>
     <Content/>
     </div>
   )
